@@ -23,7 +23,7 @@ if (flutterVersionName == null) {
 }
 
 android {
-    namespace = "com.example.Otaku"
+    namespace = "com.oukutel.otakumemory"
     compileSdk = 36
     ndkVersion = flutter.ndkVersion
 
@@ -37,7 +37,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.Otaku"
+        applicationId = "com.oukutel.otakumemory"
         minSdk = 24
         targetSdk = 34
         versionCode = flutterVersionCode.toInteger()
